@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activitat 1</title>
+  <style>
+    form {
+      margin-bottom: 12px;
+    }
+
+    .left {
+      margin-left: 65px;
+      margin-top: 10px;
+    }
+
+    .esbarjo {
+      margin-left: 20px;
+    }
+
+    .gesbarjo {
+      margin-left: 72px;
+    }
+
+    .espaidret {
+      margin-left: 40px;
+    }
+
+    input {
+      background-color: #fff;
+      color: gray;
+      border: 1px solid gray;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1> General Admission Registration </h1>
+
+  <table>
+    <tr>
+      <td>
+  <form>
+    <label for="fname">Name:</label>
+      <input type="text" class="esbarjo" id="fname" name="fname" value="Narcis" size="10">
+      <input type="text" id="lname" name="lname" value="Lleixa" size="10">
+  </form>
+
+
+  <form>
+    <label for="fname">Email:</label>
+    <input type="text" class="esbarjo" id="fname" name="fname" value="nlleixa@iesebre.com" size="24">
+  </form>
+
+
+  <form action="/action_page.php">
+    <label for="fname">Gender:</label>
+      <input type="radio" id="html" name="fav_language" value="MALE">
+      <label for="html">MALE</label>
+      <input type="radio" id="html" name="fav_language" value="FEMALE">
+      <label for="html">FEMALE</label>
+  </form>
+
+  <form>
+    <label for="fname">Phone:</label>
+    <input type="text" class="esbarjo" id="phone" name="phone" maxlength="9" size="24">
+  </form>
+
+  <form>
+    <label for="fname">Emergency Contact</label><br>
+    <input type="text" id="contact" name="contact" size="24" bor class="left">
+  </form>
+
+
+
+  <form action="/action_page.php">
+    <label for="fname">Do you reequire parking?</label><br>
+      <input type="radio" class="left" id="yes" name="fav_language" value="yes">
+      <label for="html">Yes</label>
+      <input type="radio" id="no" name="fav_language" value="no">
+      <label for="html">No</label>
+  </form>
+
+  <form action="/action_page.php">
+    <label for="fname">What is your room preference?</label><br>
+      <input type="radio" class="left" id="yes" name="fav_language" value="yes">
+      <label for="html">Single Room</label><br>
+    <input type="radio" class="gesbarjo" id="no" name="fav_language" value="no">
+      <label for="html">Shared Room</label><br>
+    <input type="radio" class="gesbarjo" id="yes" name="fav_language" value="yes">
+      <label for="html">No Room Needed</label><br>
+  </form>
+
+</td>
+
+<td id=""></td>
+
+
+
+  <td>
+  <form action="/action_page.php">
+    <label for="fname" class="espaidret">Do you have dietary restrictions?</label><br>
+      <input type="radio" class="left" id="yes" name="fav_language" value="yes">
+      <label for="html">None</label><br>
+    <input type="radio" class="gesbarjo" id="no" name="fav_language" value="no">
+      <label for="html">Vegetarian</label><br>
+    <input type="radio" class="gesbarjo" id="yes" name="fav_language" value="yes">
+      <label for="html">Glutten Allergy</label><br>
+    <input type="radio" class="gesbarjo" id="yes" name="fav_language" value="yes">
+      <label for="html">Lactose Allergy</label><br>
+    <input type="radio" class="gesbarjo" id="yes" name="fav_language" value="yes">
+      <label for="html">Nut Allergy</label><br>
+    <input type="radio" class="gesbarjo" id="yes" name="fav_language" value="yes">
+      <label for="html">Shellfish Allergy</label><br>
+  </form>
+
+
+
+  <form action="/action_page.php">
+    <label for="fname" class="espaidret">What activities will you attend?</label><br>
+      <input type="radio" class="left" id="yes" name="fav_language" value="yes">
+      <label for="html">Award Gala Dinner</label><br>
+    <input type="radio" class="gesbarjo" id="no" name="fav_language" value="no">
+      <label for="html">Luncheon</label><br>
+    <input type="radio" class="gesbarjo" id="yes" name="fav_language" value="yes">
+      <label for="html">Town Hall</label><br>
+  </form>
+
+  <form action="/action_page.php">
+    <label for="fname" class="espaidret">Do you reequire parking?</label><br>
+      <input type="radio" class="left" id="yes" name="fav_language" value="yes">
+      <label for="html">Yes</label>
+      <input type="radio" id="no" name="fav_language" value="no">
+      <label for="html">No</label>
+  </form>
+
+
+</td>
+
+
+
+  </tr>
+</table>
+
+
+
+</body>
+
+</html>
